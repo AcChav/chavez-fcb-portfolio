@@ -1,0 +1,137 @@
+
+
+
+Syntax for CSS
+
+Selector {
+	property: value;
+}
+
+
+*/
+
+/* Specificity Rule 
+
+Higher Priority:  
+1. id (highest)
+2. class
+3. element
+
+Least Priority:  Universal 
+*/
+
+
+/* Universal Selector */
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Element Selector */
+h1, h2, 
+span {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border: 3px solid #007bff;
+	border-radius: 50%;
+}
+
+/*  ID selector # */
+/* Class selector . */
+
+/* vh- viewhight determines or measures 
+the percentage of the height of the 
+device you are viewing you webpage in [check for responsiveness]*/
+
+/* flex - responsive */
+/* flexbox - layout elemets inside our landing 
+section horizontally and vertically 
+
+	by default, display: flex; arranges elements inside the parent element.
+*/
+
+
+#landing {
+	height: 100vh; 
+	display: flex;
+	flex-direction: column;
+	/* flex-direction: column; > aranges flex items in column */
+	justify-content: center;
+	/* justify-content: center; > arranges elemets 
+	horizontally if the flex items are in a row. */
+	align-items: center; 
+	/* arranges elemets 
+	vertically  */
+
+}
+
+#gallery {
+	height: 100vh; 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 15px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+span {
+	color: #007bff;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	/* lines around the element
+			#colors
+	 */
+	border: 3px solid #ffffff;
+	border-radius: 15px;
+	height: 200px;
+	width: 65%;
+	/* % - based in the width of the parent element */
+	margin: 22px;
+	/* space outside the element [margin]*/
+	padding: 22px;
+	/* space inside the element [padding]*/
+}
+
+html {
+	scroll-behavior: s;
+}
+
+
+
+
+
+
+
+/* bootsrap
+
+m => margin 1-5 or auto [margin]
+p => padding
+
+t=> top
+s => start or left
+e => for end or right
+b => bottom
+
+x => x-axis
+y => y-axis
+
+
+text-align: justify;
+*/
+
+
+
+ 
